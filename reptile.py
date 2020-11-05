@@ -23,12 +23,12 @@ class Reptile(Animal):
 
 
 # Lets create an object of our Reptile class to utilise the functionalities of OOP
-reptile_object = Reptile()
-
-print(reptile_object.eat()) # Using functions from parent class (Animal) to test the super().__init__()
-print(reptile_object.breathe())
-print(reptile_object.procreate())
-
-print(reptile_object.hunt()) # Using functions from Reptile
-print(reptile_object.seek_heat())
-print(reptile_object.use_venom())
+# reptile_object = Reptile()
+#
+# print(reptile_object.eat()) # Using functions from parent class (Animal) to test the super().__init__()
+# print(reptile_object.breathe())
+# print(reptile_object.procreate())
+#
+# print(reptile_object.hunt()) # Using functions from Reptile
+# print(reptile_object.seek_heat())
+# print(reptile_object.use_venom())
