@@ -16,11 +16,11 @@ class Snake(Reptile):
 
 
 # Create object of this class
-snake_object = Snake()
-
-print(snake_object.limbs) # From Snake class
-print(snake_object.eat()) # From Animal class
-print(snake_object.breathe())
-print(snake_object.hunt()) # From Reptile class
+# snake_object = Snake()
+#
+# print(snake_object.limbs) # From Snake class
+# print(snake_object.eat()) # From Animal class
+# print(snake_object.breathe())
+# print(snake_object.hunt()) # From Reptile class
 
 # We have double inheritance and Encapsulated in functions within parent classes
