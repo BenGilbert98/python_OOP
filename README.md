@@ -1,7 +1,4 @@
 # Python OOP
-
-(update for 2pm after)
-
 **Step 1**
 - Creating an Animal class as our Parent
 ```
@@ -98,3 +95,50 @@ class Python(Snake):
 ```
 - ```__name__``` and ```__main__``` are used to check if the code is run from the current file / directory for different file / importing it
 - we will create 2 files and use ```__name__``` and ```__main__``` in both files and the outcome will show the difference 
+
+# Getter and Setters
+```
+class Student:
+    def __init__(self, name, company):
+        self.name = name
+        self.company = company
+
+
+    def getStudent(self, value):
+        self.__name # __ are used to hide the data
+
+    def setStudent(self, value):
+        self.__name = value
+
+student_object = Student("Ben", "Sparta Global")
+
+print(f"Student name is {student_object.setStudent()}")
+```
+
+**Second Iteration**
+```
+class Student:
+    def __init__(self, name, company):
+        self.name = name
+        self.company = company
+
+    @property # A decorator in python is any callable python object that is used to modify a function or a class
+    def Student(self, value):
+        print(" This setter method in student data")
+        self.__name # __ are used to hide the data
+```
+- A decorator in python is any callable python object that is used to modify a function or a class
+```
+    @Student.setter
+    def Student(self, value):
+        print(" Calling @student.student method")
+        self.__name = value
+```
+- Creating an object with required information
+```
+student_object = Student("Ben", "Sparta Global")
+
+print(f"Student name is {student_object.name}")
+print("=" * 34)
+print(f"Student works in {student_object.company}")
+```
